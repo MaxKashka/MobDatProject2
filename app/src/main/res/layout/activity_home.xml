@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterLogin.HomeActivity">
+
+    <Button
+        android:id="@+id/button7MinuteTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7-Minute Test" />
+
+    <TextView
+        android:id="@+id/textView7MinuteAttempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attempts: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView7MinuteBestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Score: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/buttonAd8Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AD8 Test"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAd8Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: None"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonSdmtTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SDMT Test"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewSdmtAttempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attempts: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewSdmtBestTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Time: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
+

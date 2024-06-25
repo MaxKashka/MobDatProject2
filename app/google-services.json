@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508628008027",
+    "project_id": "project2mobdat",
+    "storage_bucket": "project2mobdat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508628008027:android:db5a1b11809a181ff0d37e",
+        "android_client_info": {
+          "package_name": "com.example.project2mobdat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo5NoYPHzyMjmb4ASaOrsPeA4ZCTmu4VA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

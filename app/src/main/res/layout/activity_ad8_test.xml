@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AD8TestActivity">
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer the following questions about noticeable changes in the user’s cognitive function:"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Question 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Problems with judgment (e.g., problems making decisions, bad financial decisions, problems with thinking)" />
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton1Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton1No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Less interest in hobbies/activities" />
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton2Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton2No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 3 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Repeats the same things over and over (questions, stories, or statements)" />
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton3Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton3No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 4 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Trouble learning how to use a tool, appliance, or gadget (e.g., VCR, computer, microwave, remote control)" />
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton4Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton4No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 5 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Forgets correct month or year" />
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton5Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton5No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 6 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Trouble handling complicated financial affairs (e.g., balancing checkbook, income taxes, paying bills)" />
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton6Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton6No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 7 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. Trouble remembering appointments" />
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton7Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton7No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <!-- Question 8 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8. Daily problems with thinking and/or memory" />
+    <RadioGroup
+        android:id="@+id/radioGroup8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioButton8Yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" />
+        <RadioButton android:id="@+id/radioButton8No" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSubmitAd8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
+
